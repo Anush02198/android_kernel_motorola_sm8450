@@ -13,3 +13,4 @@
 /dts-v1/;
 
 #include "waipio-v2-moto-common-base.dtsi"
+#include "display/display/waipio-sde.dtsi"

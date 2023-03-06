@@ -3446,6 +3446,10 @@
 	};
 };
 
+#include "camera/waipio-camera.dtsi"
+#include "mmrm/waipio-mmrm.dtsi"
+#include "audio/waipio-audio.dtsi"
+#include "video/waipio-vidc.dtsi"
 #include "ipcc-test.dtsi"
 #include "waipio-qupv3.dtsi"
 #include "waipio-pinctrl.dtsi"

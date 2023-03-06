@@ -22,6 +22,9 @@
 #include "waipio-moto-common-charger.dtsi"
 #include "waipio-hiphic-thermal-overlay.dtsi"
 #include "waipio-pm8010-spmi.dtsi"
+#include "display/display/waipio-sde-display-hiphi-common.dtsi"
+#include "camera/waipio-camera-sensor-hiphi-common.dtsi"
+#include "audio/cape-audio-eqs.dtsi"
 
 &usb0 {
 	ssusb_redriver = <&redriver>;
