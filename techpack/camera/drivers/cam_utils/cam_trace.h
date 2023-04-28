@@ -17,7 +17,7 @@
 #include <media/cam_req_mgr.h>
 #include "cam_req_mgr_core.h"
 #include "cam_req_mgr_interface.h"
-#include "cam_context.h"
+#include "../cam_core/cam_context.h"
 
 #define CAM_DEFAULT_VALUE 0xFF
 #define CAM_TRACE_PRINT_MAX_LEN 512

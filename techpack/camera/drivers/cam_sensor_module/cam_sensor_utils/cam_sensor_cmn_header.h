@@ -15,7 +15,7 @@
 #include <linux/delay.h>
 #include <linux/list.h>
 
-#include <dt-bindings/msm-camera.h>
+#include "../../dt-bindings/msm-camera.h"
 #include <media/cam_sensor.h>
 #include <media/cam_req_mgr.h>
 

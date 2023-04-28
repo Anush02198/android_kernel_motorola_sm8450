@@ -18,7 +18,7 @@
 #include "cam_soc_util.h"
 #include "cam_debug_util.h"
 #include "cam_sensor_io.h"
-#include "cam_csiphy_core.h"
+#include "../cam_csiphy/cam_csiphy_core.h"
 
 #define INVALID_VREG 100
 #define RES_MGR_GPIO_NEED_HOLD   1

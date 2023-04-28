@@ -7,7 +7,7 @@
 #define _CAM_DEBUG_UTIL_H_
 
 #include <linux/platform_device.h>
-#include "cam_presil_hw_access.h"
+#include "../cam_presil/inc/cam_presil_hw_access.h"
 #include "cam_trace.h"
 
 extern unsigned long long debug_mdl;

@@ -27,7 +27,7 @@
 #include <cam_cpas_api.h>
 #include "cam_soc_util.h"
 #include "cam_debug_util.h"
-#include "cam_context.h"
+#include "../../cam_core/cam_context.h"
 
 #define MAX_CSIPHY                  8
 
