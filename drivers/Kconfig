@@ -238,4 +238,6 @@ source "drivers/most/Kconfig"
 
 source "drivers/mmi_relay/Kconfig"
 
+source "drivers/mmi_info/Kconfig"
+
 endmenu
