@@ -170,6 +170,8 @@ obj-$(CONFIG_REGULATOR_RPMH) += rpmh-regulator.o
 obj-$(CONFIG_REGULATOR_STUB) += stub-regulator.o
 obj-$(CONFIG_REGULATOR_DEBUG_CONTROL) += debug-regulator.o
 
-obj-y += wl2868c/
+obj-$(CONFIG_REGULATOR_WL2868C) += wl2868c/
+obj-$(CONFIG_REGULATOR_SLG51000) += slg51000/
+obj-$(CONFIG_REGULATOR_SLG5BM43670) += slg5bm43670/
 
 ccflags-$(CONFIG_REGULATOR_DEBUG) += -DDEBUG
